@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width , initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="../static/styles.css" rel="stylesheet">
+        <link href="../static/logoicon.ico" rel="icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="http://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="..\static\logo(2).png" height="150" width="210"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1> IDLY SHOP </h1>
+                <p>&#128591 We Love To Cook For You &#128591</p>
+            </div>
+        </section>
+        <section class="footer">
+            <p>Follow us on <a href="https://www.instagram.com/idlyshop_muvattupuzha/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
+        </section>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

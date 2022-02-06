@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width , initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="../static/styles.css" rel="stylesheet">
+        <link href="../static/logoicon.ico" rel="icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="..\static\logo(2).png" height="150" width="210"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+        <section class="contact">
+            <section class="location1">
+                <h2>Branch 1</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.315855396403!2d76.57567391461541!3d9.990746692857515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07e76155bfb5c5%3A0x35505932c56948c4!2sIdly%20Shop!5e0!3m2!1sen!2sin!4v1642731856858!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="address1">
+                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                    <span>
+                        Idly Shop<br>
+                        Velloorkunnam, Muvattupuzha,<br>
+                        Kerala, India
+                    </span><br>
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                    <span>+91-9539266677</span>
+                </div>
+            </section>
+            
+            <section class="location1">
+                <h2>Branch 2</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15717.926761054066!2d76.58193955770261!3d9.977010425896308!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd119d29d33fd2c3f!2sIdly%20Shop!5e0!3m2!1sen!2sin!4v1642831012607!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="address2">
+                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                    <span>
+                        Idly Shop<br>
+                        Near Private Bus Stand, College Road,<br>
+                        Muvattupuzha, 
+                        Kerala, India
+                    </span><br>
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                    <span>+91-8589861222</span>
+                </div>
+            </section>
+
+            <section class="delivery">
+                <h1>Our Delivery Partners</h1>
+                <div class="d_partners">
+                    <a href="https://www.swiggy.com/restaurants/idly-shop-muvattupuzha-kottayam-459344"><img src="../static/swiggy_logo.png"></a>
+                    <h2>SWIGGY</h2>
+                </div>
+                <div class="d_partners">
+                    <a href="https://www.zomato.com/muvattupuzha/idly-shop-1-muvattupuzha-locality/order"><img src="../static/zomato.png"></a>
+                    <h2>ZOMATO</h2>
+                </div>
+            </section>
+        </section>
+        <section class="footer">
+            <p>Follow us on <a href="https://www.instagram.com/idlyshop_muvattupuzha/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
+        </section>
+
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>            
